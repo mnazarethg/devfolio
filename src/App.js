@@ -1,0 +1,30 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AboutMe from './screens/AboutMe';
+import Projects from './screens/Projects';
+import Contacto from './screens/Contact';
+import Header from './components/Header';
+import PrincipalPage from './screens/PrincipalPage';
+import Video from './components/Video';
+import ProjectDetails from './screens/ProjectDetails';
+
+function App() {
+
+
+  return (
+    <>
+    <Router>
+        <Header />
+        <Routes>
+        <Route path="/devfolio" element={<PrincipalPage />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/ProjectDetails" element={<ProjectDetails />} />
+        <Route path="/project/:projectId" element={<Video />} />
+        <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+    </Router>
+    </>
+  );
+}
+
+export default App;
