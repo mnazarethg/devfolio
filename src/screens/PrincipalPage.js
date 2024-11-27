@@ -1,14 +1,8 @@
-import { useEffect } from 'react';
 import { ReactTyped } from 'react-typed';
 import '../stylesheets/PrincipalPage.css';
-import 'bootstrap/dist/css/bootstrap-reboot.min.css';
-import AOS from 'aos';
 import photo from '../assets/images/hero-img.png';
 
 function PrincipalPage() {
-  useEffect(() => {
-    AOS.init(); 
-  }, []);
 
   return (
     <>

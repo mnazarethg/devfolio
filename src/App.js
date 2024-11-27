@@ -5,7 +5,9 @@ import Contacto from './screens/Contact';
 import Header from './components/Header';
 import PrincipalPage from './screens/PrincipalPage';
 import Video from './components/Video';
-import ProjectDetails from './screens/ProjectDetails';
+import ProjectBackHome from './screens/ProjectBackHome';
+import ProjectOdoo from './screens/ProjectOdoo'
+import './App.css';
 
 function App() {
 
@@ -18,7 +20,8 @@ function App() {
         <Route path="/devfolio" element={<PrincipalPage />} />
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/ProjectDetails" element={<ProjectDetails />} />
+        <Route path="/ProjectBackHome" element={<ProjectBackHome />} />
+        <Route path="/ProjectOdoo" element={<ProjectOdoo />} />
         <Route path="/project/:projectId" element={<Video />} />
         <Route path="/contacto" element={<Contacto />} />
         </Routes>

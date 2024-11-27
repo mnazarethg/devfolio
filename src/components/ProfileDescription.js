@@ -1,8 +1,8 @@
 function ProfileDescription () {
 
-    return (
-        <>
-        <div className="col-md-6">
+  return (
+    <>
+      <div className="col-md-6">
         <div className="about-me">
           <h4>Sobre mí</h4>
           <p>
@@ -24,8 +24,8 @@ function ProfileDescription () {
           </p>
         </div>
       </div>
-      </>
-    )
+    </>
+  )
 }
 
 export default ProfileDescription

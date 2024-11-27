@@ -3,6 +3,7 @@ import ProfileSumary from '../components/ProfileSumary';
 import ProfileDescription from '../components/ProfileDescription';
 import Technologies from '../components/Technologies';
 import Resume from '../components/Resume.js'
+import '../stylesheets/AboutMe.css'
 
 function AboutMe() {
 
