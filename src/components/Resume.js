@@ -48,8 +48,7 @@ function Resume () {
               </div>
 
               <div className="resume-item">
-                <h4>Magíster en Neurociencias Cognitivas y del
-                comportamiento - Itinerario investigación</h4>
+                <h4>Magíster en Neurociencias Cognitivas y del comportamiento - Itinerario investigación</h4>
                 <h4>Certificación en Dart</h4>
                 <h5>2022 - 2023</h5>
                 <p><em>Universidad de Granada (España)</em></p>
@@ -124,12 +123,12 @@ function Resume () {
                 <h5>2021 - 2023</h5>
                 <p><em>Profesional independiente</em></p>
                 <ul>
-                  <li>Supervisión de profesionales y corrección de informes neurocognitivos.</li>
+                  <li>Supervisión de profesionales.</li>
                 </ul>
               </div>
 
               <div className="resume-item">
-                <h4>Neuropsicóloga, Capacitadora Profesional</h4>
+                <h4>Capacitadora Profesional</h4>
                 <h5>2021 - 2022</h5>
                 <p><em>Hospital Privado Universitario de Córdoba</em></p>
                 <ul>
@@ -139,7 +138,7 @@ function Resume () {
               </div>
 
               <div className="resume-item">
-                <h4>Jefa de Servicio Neuropsicología</h4>
+                <h4>Jefa de Servicio</h4>
                 <h5>2017 - 2020</h5>
                 <p><em>Sanatorio Allende</em></p>
                 <ul>
@@ -149,7 +148,7 @@ function Resume () {
                 </div>
 
                 <div className="resume-item">
-                <h4>Profesora Universitaria en cátedras de Neurociencias</h4>
+                <h4>Profesora Universitaria</h4>
                 <h5>2017 - 2019</h5>
                 <p><em>UNC</em></p>
               </div>

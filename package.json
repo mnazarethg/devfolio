@@ -11,6 +11,7 @@
     "boo": "^2.0.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "bootstrap-reboot": "^4.5.6",
     "font-awesome": "^4.7.0",
     "glightbox": "^3.3.0",
     "react": "^18.2.0",

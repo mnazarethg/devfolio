@@ -6,12 +6,13 @@ function ProfileDescription () {
         <div className="about-me">
           <h4>Sobre mí</h4>
           <p>
-          Comencé formalmente mi trayectoria profesional en la programación, en el ámbito académico, mientras cursaba mi Máster en Investigación. 
-          Durante este período, aprendí a programar en Python, utilizándolo para análisis de datos y proyectos de machine learning, lo que despertó mi interés por la tecnología y la resolución de problemas a través de la programación.
+          Comencé formalmente mi carrera en programación en el ámbito académico, durante mi Máster en Investigación, donde adquirí mis primeros conocimientos en Python. 
+          Usé este lenguaje para análisis de datos y proyectos de machine learning, lo que despertó mi interés por la tecnología y la resolución de problemas a través de la programación.
           </p>
           <p>
-          Mi primera experiencia laboral como Desarrolladora Full Stack llegó gracias al dominio de la programación, donde completè mis conocimientos con SQL, HTML, CSS y Bootstrap, en una empresa de tecnología dedicada a la digitalización comercial. 
-          Este rol me permitió consolidar mis habilidades en programación orientada a objetos (POO) y fortalecer mis conocimientos en el desarrollo de soluciones escalables y personalizadas para los clientes.
+          Mi primer puesto como Desarrolladora Full Stack fue un paso clave en mi carrera, donde consolidé mis habilidades en programación. 
+          En esta experiencia, amplié mis conocimientos con herramientas como SQL, HTML, CSS y Bootstrap, trabajando en una empresa de tecnología dedicada a la digitalización comercial. 
+          Este rol me permitió profundizar en la programación orientada a objetos (POO) y desarrollar soluciones escalables y personalizadas que respondieran a las necesidades de los clientes.
           </p>
           <p>
           Apasionada por el desarrollo, decidí ampliar mis horizontes profesionales y comencé una Formación Profesional en Desarrollo de Aplicaciones Web (DAW). 

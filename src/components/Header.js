@@ -7,9 +7,9 @@ function Header() {
   return (     
     <header id="header" className="header d-flex align-items-center sticky-top">
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <Link to="/portfolio" className="logo d-flex align-items-center">
+        <span className="logo d-flex align-items-center">
           <h1>DevFolio</h1>
-        </Link>
+        </span>
         <nav id="navmenu" className="navmenu">
           <ul>
             <li><Link to="/devfolio" className="active"></Link>Principal</li>
