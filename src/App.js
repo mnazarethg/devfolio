@@ -11,21 +11,20 @@ import './App.css';
 
 function App() {
 
-
   return (
     <>
-    <Router>
-        <Header />
-        <Routes>
-        <Route path="/devfolio" element={<PrincipalPage />} />
-        <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/ProjectBackHome" element={<ProjectBackHome />} />
-        <Route path="/ProjectOdoo" element={<ProjectOdoo />} />
-        <Route path="/project/:projectId" element={<Video />} />
-        <Route path="/contacto" element={<Contacto />} />
-        </Routes>
-    </Router>
+      <Router>
+          <Header />
+          <Routes>
+          <Route path="/devfolio" element={<PrincipalPage />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/ProjectBackHome" element={<ProjectBackHome />} />
+          <Route path="/ProjectOdoo" element={<ProjectOdoo />} />
+          <Route path="/project/:projectId" element={<Video />} />
+          <Route path="/contacto" element={<Contacto />} />
+          </Routes>
+      </Router>
     </>
   );
 }
