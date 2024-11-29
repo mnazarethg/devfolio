@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import 'glightbox/dist/css/glightbox.min.css'; 
 import '../stylesheets/Projects.css'; 
 import Odoo from '../assets/images/odoo.png';
@@ -37,7 +38,7 @@ function Projects() {
                   <h4>Back Home</h4>
                   <p>Aplicación móvil desarrollada con React Native.</p>
                   <a href={BackHome} title="BackHome" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="./ProjectBackHome.js" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to="/ProjectBackHome" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
 
@@ -47,7 +48,7 @@ function Projects() {
                   <h4>Código QR</h4>
                   <p>Propuesta para Frontend Mentor</p>
                   <a href={QRDesign} title="Código QR" data-gallery="portfolio-gallery-web" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="https://mnazarethg.github.io/qr-code/" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="https://mnazarethg.github.io/qr-code/" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
 
@@ -57,7 +58,7 @@ function Projects() {
                   <h4>Recetario</h4>
                   <p>Propuesta de Frontend Mentor</p>
                   <a href={RecipeDesign} title="Recetario" data-gallery="portfolio-gallery-web" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="https://mnazarethg.github.io/recipe-page/" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="https://mnazarethg.github.io/recipe-page/" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
 
@@ -67,7 +68,7 @@ function Projects() {
                   <h4>Partners de Odoo</h4>
                   <p>Módulo completo de Odoo ERP</p>
                   <a href={Odoo} title="Partners de Odoo" data-gallery="portfolio-gallery-odoo" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="./ProjectOdoo.js" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to="/ProjectOdoo" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
 
