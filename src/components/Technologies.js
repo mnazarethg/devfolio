@@ -16,21 +16,16 @@ function Technologies() {
   return (
     <>
       <div className="skills-content skills-animation">
-
         <h5>Tecnologías</h5>
-        {technologies.map((technology) => (
+        { technologies.map((technology) => (
         <div className="progress" key={technology.id}>
-          
-            
-              <span className="skill"><span>{technology.skill}</span> <i className="val">{technology.value}%</i></span>
-              <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow={technology.value} aria-valuemin="0" aria-valuemax="100" style={{ width: `${technology.value}%` }}></div>
-              </div>
-            </div>
-          ))}
+          <span className="skill"><span>{technology.skill}</span> <i className="val">{technology.value}%</i></span>
+          <div className="progress-bar-wrap">
+            <div className="progress-bar" role="progressbar" aria-valuenow={technology.value} aria-valuemin="0" aria-valuemax="100" style={{ width: `${technology.value}%` }}></div>
+          </div>
         </div>
-
-      
+      ))}
+    </div>
     </>
   );
 };
