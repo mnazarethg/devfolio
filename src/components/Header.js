@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
+import '../stylesheets/Header.css'
 
 function Header() {
   useEffect(() => {
@@ -50,8 +49,7 @@ function Header() {
         </span>
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><Link to="/devfolio"></Link>Principal
-            </li>
+            <li><Link to="/devfolio"></Link>Principal</li>
             <li><Link to="/AboutMe"></Link>Sobre mí</li>
             <li><Link to="/Projects"></Link>Proyectos</li>
             <li><Link to="/Contact"></Link>Contacto</li>

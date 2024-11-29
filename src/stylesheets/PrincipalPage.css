@@ -55,5 +55,9 @@
     .hero p {
       font-size: 20px;
     }
+
+    .hero span {
+      font-size: 24px;
+    }
   }
   

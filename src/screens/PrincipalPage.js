@@ -1,6 +1,7 @@
 import { ReactTyped } from 'react-typed';
 import '../stylesheets/PrincipalPage.css';
 import photo from '../assets/images/hero-img.png';
+import { BiFontSize } from 'react-icons/bi';
 
 function PrincipalPage() {
 
