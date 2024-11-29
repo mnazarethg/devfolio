@@ -37,7 +37,7 @@ function Projects() {
                   <h4>Back Home</h4>
                   <p>Aplicación móvil desarrollada con React Native.</p>
                   <a href={BackHome} title="BackHome" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="./ProjectBackHome" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="./ProjectBackHome.js" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ function Projects() {
                   <h4>Partners de Odoo</h4>
                   <p>Módulo completo de Odoo ERP</p>
                   <a href={Odoo} title="Partners de Odoo" data-gallery="portfolio-gallery-odoo" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="./ProjectOdoo" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <a href="./ProjectOdoo.js" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
 
