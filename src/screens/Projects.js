@@ -1,10 +1,7 @@
-import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'glightbox/dist/css/glightbox.min.css'; 
 import '../stylesheets/Projects.css'; 
-import imagesLoaded from 'imagesloaded';
-import Isotope from 'isotope-layout';
 import Odoo from '../assets/images/odoo.png';
 import BackHome from '../assets/images/back_home.png';
 import QRDesign from '../assets/images/qr-code.png';
@@ -18,9 +15,9 @@ function Projects () {
   const projects = [
     { id: 1, category: "app", imgSrc: BackHome, title: "BackHome", description: "Aplicación móvil desarrollada con React Native.", link: "/ProjectBackHome" },
     { id: 2, category: 'web', imgSrc: QRDesign, title: "Código QR", description: "Propuesta para Frontend Mentor.", link: "https://mnazarethg.github.io/qr-code/" },
-    { id: 3, category: 'web', imgSrc: RecipeDesign, title: "Recetario", description: 'Propuesta para Frontend Mentor.', link: "https://mnazarethg.github.io/recipe-page/" },
-    { id: 4, category: 'web', imgSrc: SocialLinksProfile, title: "Perfil de Redes Sociales", description: 'Propuesta para Frontend Mentor.', link: "https://mnazarethg.github.io/social-links-profile-maria/" },
-    { id: 5, category: 'odoo', imgSrc: Odoo, title: "Partners de Odoo", description: 'Módulo completo de Odoo ERP.', link: "/ProjectOdoo" },
+    { id: 3, category: 'web', imgSrc: RecipeDesign, title: "Recetario", description: "Propuesta para Frontend Mentor.", link: "https://mnazarethg.github.io/recipe-page/" },
+    { id: 4, category: 'web', imgSrc: SocialLinksProfile, title: "Perfil de Redes Sociales", description: "Propuesta para Frontend Mentor.", link: "https://mnazarethg.github.io/social-links-profile-maria/" },
+    { id: 5, category: 'odoo', imgSrc: Odoo, title: "Partners de Odoo", description: "Módulo completo de Odoo ERP.", link: "/ProjectOdoo" },
   ];
 
   const [activeFilter, setActiveFilter] = useState('*');
@@ -62,7 +59,15 @@ function Projects () {
                   <h4>{project.title}</h4>
                   <p>{project.description}</p>
                   <a href={project.imgSrc} title={project.title} data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <Link to={project.link} title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></Link>
+                  {project.link.startsWith("http") ? (
+                  <a href={project.link} title="Más detalles" className="details-link" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-link-45deg"></i>
+                  </a>
+                ) : (
+                  <Link to={project.link} title="Más detalles" className="details-link">
+                    <i className="bi bi-link-45deg"></i>
+                  </Link>
+                )}
                 </div>
               </div>
               ))}
@@ -71,7 +76,6 @@ function Projects () {
           </div>
 
         </div>
-
       </section>
     </>
   );
