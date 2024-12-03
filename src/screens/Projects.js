@@ -64,7 +64,7 @@ function Projects () {
                     <i className="bi bi-link-45deg"></i>
                   </a>
                 ) : (
-                  <Link to={project.link} title="Más detalles" className="details-link">
+                  <Link to={project.link} title="Más detalles" className="details-link" target="_blank" rel="noopener noreferrer">
                     <i className="bi bi-link-45deg"></i>
                   </Link>
                 )}
