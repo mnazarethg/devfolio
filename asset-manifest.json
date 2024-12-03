@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/devfolio/static/css/main.7af343ac.css",
-    "main.js": "/devfolio/static/js/main.9290028b.js",
+    "main.js": "/devfolio/static/js/main.c737d9b6.js",
     "static/media/back_home.mp4": "/devfolio/static/media/back_home.253e75b66bf0bb4c572f.mp4",
     "static/media/partners_odoo.mp4": "/devfolio/static/media/partners_odoo.25b0c3f29b7f33f830d0.mp4",
     "static/media/back_home2.mp4": "/devfolio/static/media/back_home2.35d8e0771d2f76355a88.mp4",
     "static/media/qr-code.png": "/devfolio/static/media/qr-code.29aff867ac0934aa4cdd.png",
     "static/media/hero-img.png": "/devfolio/static/media/hero-img.a859e9392853b619f44e.png",
     "static/media/recipe-design.png": "/devfolio/static/media/recipe-design.0544a9ca7fd4386b4b95.png",
+    "static/media/social-links-profile.png": "/devfolio/static/media/social-links-profile.ef1b0d2be5362894b2aa.png",
     "static/media/odoo.png": "/devfolio/static/media/odoo.e6256a921f48d3e8ed8b.png",
     "static/media/bootstrap-icons.woff?": "/devfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/devfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
@@ -15,10 +16,10 @@
     "static/media/back_home.png": "/devfolio/static/media/back_home.ddac1c925c4c784fbdab.png",
     "index.html": "/devfolio/index.html",
     "main.7af343ac.css.map": "/devfolio/static/css/main.7af343ac.css.map",
-    "main.9290028b.js.map": "/devfolio/static/js/main.9290028b.js.map"
+    "main.c737d9b6.js.map": "/devfolio/static/js/main.c737d9b6.js.map"
   },
   "entrypoints": [
     "static/css/main.7af343ac.css",
-    "static/js/main.9290028b.js"
+    "static/js/main.c737d9b6.js"
   ]
 }
