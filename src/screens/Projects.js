@@ -5,6 +5,7 @@ import Odoo from '../assets/images/odoo.png';
 import BackHome from '../assets/images/back_home.png';
 import QRDesign from '../assets/images/qr-code.png';
 import RecipeDesign from '../assets/images/recipe-design.png';
+import SocialLinksProfile from '../assets/images/social-links-profile.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
@@ -59,6 +60,16 @@ function Projects() {
                   <p>Propuesta de Frontend Mentor</p>
                   <a href={RecipeDesign} title="Recetario" data-gallery="portfolio-gallery-web" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                   <a href="https://mnazarethg.github.io/recipe-page/" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                <img src={SocialLinksProfile} className="img-fluid" alt=""></img>
+                <div className="portfolio-info">
+                  <h4>Perfil de redes sociales</h4>
+                  <p>Propuesta de Frontend Mentor</p>
+                  <a href={SocialLinksProfile} title="Social Links Profile" data-gallery="portfolio-gallery-web" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                  <a href="https://mnazarethg.github.io/social-links-profile-maria/" title="Más detalles" className="details-link"><i className="bi bi-link-45deg"></i></a>
                 </div>
               </div>
 
