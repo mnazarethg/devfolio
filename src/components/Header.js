@@ -49,10 +49,10 @@ function Header() {
         </span>
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><Link to="/devfolio"></Link>Principal</li>
-            <li><Link to="/AboutMe"></Link>Sobre mí</li>
-            <li><Link to="/Projects"></Link>Proyectos</li>
-            <li><Link to="/Contact"></Link>Contacto</li>
+            <li><Link to="/devfolio">Principal</Link></li>
+            <li><Link to="/AboutMe">Sobre mí</Link></li>
+            <li><Link to="/Projects">Proyectos</Link></li>
+            <li><Link to="/Contact">Contacto</Link></li>
           </ul> 
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>     
         </nav>
