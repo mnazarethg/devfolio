@@ -10,15 +10,15 @@ function ProjectAPI() {
 
         <section id="portfolio-details" className="portfolio-details section">
           <div className="container" data-aos="fade-up">
-            <div className="api-images-grid">
-              <div className="api-image-container">
-                <img src={APIGet} alt="API GET Request" className="api-image" />
+            <div className="images-grid">
+              <div className="image-container">
+                <img src={APIGet} alt="API GET Request" className="image" />
               </div>
-              <div className="api-image-container">
-                <img src={APIPost} alt="API POST Request" className="api-image" />
+              <div className="image-container">
+                <img src={APIPost} alt="API POST Request" className="image" />
               </div>
-              <div className="api-image-container">
-                <img src={APIDelete} alt="API DELETE Request" className="api-image" />
+              <div className="image-container">
+                <img src={APIDelete} alt="API DELETE Request" className="image" />
               </div>
 
             </div>

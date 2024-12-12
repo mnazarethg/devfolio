@@ -7,7 +7,8 @@ import BackHome from '../assets/images/back_home.png';
 import QRDesign from '../assets/images/qr-code.png';
 import RecipeDesign from '../assets/images/recipe-design.png';
 import SocialLinksProfile from '../assets/images/social-links-profile.png';
-import APIProject from '../assets/images/GET ID.png'
+import APIProject from '../assets/images/GET ID.png';
+import TaskManagment from '../assets/images/task_managment.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
@@ -19,7 +20,8 @@ function Projects () {
     { id: 3, category: 'web', imgSrc: RecipeDesign, title: "Recetario", description: "Propuesta para Frontend Mentor.", link: "https://mnazarethg.github.io/recipe-page/" },
     { id: 4, category: 'web', imgSrc: SocialLinksProfile, title: "Perfil de Redes Sociales", description: "Propuesta para Frontend Mentor.", link: "https://mnazarethg.github.io/social-links-profile-maria/" },
     { id: 5, category: 'web', imgSrc: APIProject, title: "API Usuarios", description: "API REST para gestión de usuarios.", link: "/ProjectAPI" },
-    { id: 6, category: 'odoo', imgSrc: Odoo, title: "Partners de Odoo", description: "Módulo completo de Odoo ERP.", link: "/ProjectOdoo" },
+    { id: 6, category: 'web', imgSrc: TaskManagment, title: "Gestor de Tareas", description: "Registra tus tareas.", link: "/ProjectTask" },
+    { id: 7, category: 'odoo', imgSrc: Odoo, title: "Partners de Odoo", description: "Módulo completo de Odoo ERP.", link: "/ProjectOdoo" },
   ];
 
   const [activeFilter, setActiveFilter] = useState('*');
