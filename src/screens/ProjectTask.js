@@ -36,6 +36,7 @@ function ProjectTask() {
                 <li>Mostrar la lista de tareas.</li>
                 <li>Marcar tareas como completadas</li>
                 <li>Eliminar tareas si están completadas.</li>
+                <li>Importar y exportar tareas.</li>
               </ul>
               <p>
               Entre las tecnologías utilizadas en el backend se encuentran PostgreSQL (base de datos SQL) y el ORM SQLAlchemy para la modelación de los datos.

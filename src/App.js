@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import AboutMe from './screens/AboutMe';
 import Projects from './screens/Projects';
 import Contact from './screens/Contact';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <HashRouter>
           <Header />
           <Routes>
           <Route path="/devfolio" element={<PrincipalPage />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="/ProjectTask" element={<ProjectTask />} />
           <Route path="/Contact" element={<Contact />} />
           </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 }
