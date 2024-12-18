@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 import AboutMe from './screens/AboutMe';
 import Projects from './screens/Projects';
 import Contact from './screens/Contact';
@@ -17,14 +17,15 @@ function App() {
       <HashRouter>
           <Header />
           <Routes>
-          <Route path="/devfolio" element={<PrincipalPage />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/ProjectBackHome" element={<ProjectBackHome />} />
-          <Route path="/ProjectOdoo" element={<ProjectOdoo />} />
-          <Route path="/ProjectAPI" element={<ProjectAPI />} />
-          <Route path="/ProjectTask" element={<ProjectTask />} />
-          <Route path="/Contact" element={<Contact />} />
+            <Route path="/devfolio" element={<PrincipalPage />} />
+            <Route path="/AboutMe" element={<AboutMe />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/ProjectBackHome" element={<ProjectBackHome />} />
+            <Route path="/ProjectOdoo" element={<ProjectOdoo />} />
+            <Route path="/ProjectAPI" element={<ProjectAPI />} />
+            <Route path="/ProjectTask" element={<ProjectTask />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/" element={<Navigate to="/devfolio" />} />
           </Routes>
       </HashRouter>
     </>
