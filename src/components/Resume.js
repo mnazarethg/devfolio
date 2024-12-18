@@ -16,19 +16,21 @@ function Resume () {
   ]
 
   const experience = [
-    { id: 1, role: "Desarrolladora de Aplicaciones Multiplataforma", period: "2024 - Actualmente", company: "Profesional independiente",
+    { id: 1, role: "Desarrolladora Front-End", period: "2024 - Actualmente", company: "Black Nexus",
+      responsibilities: [ "Diseño y desarrollo del frontend con React.js.", "Colaboración con el equipo backend para integrar las APIs y asegurar que la interfaz funcione de manera fluida.", "Optimización de la experiencia de usuario (UX), creando interfaces intuitivas y agradables." ], },
+    { id: 2, role: "Desarrolladora de Aplicaciones Multiplataforma", period: "2024 - Actualmente", company: "Profesional independiente",
       responsibilities: [ "Desarrollo de aplicaciones web y móviles utilizando React y React Native.", "Expo, Android Studio, React Navigation, Firebase, Node.js, Express.js, y MongoDB." ], },
-    { id: 2, role: "Desarrolladora", period: "2023 - 2024", company: "Nanobytes",
+    { id: 3, role: "Desarrolladora Full-Stack", period: "2023 - 2024", company: "Nanobytes",
       responsibilities: [ "Desarrollo de aplicaciones para digitalización comercial utilizando: Python, JavaScript, SQL, HTML, CSS y Bootstrap.", "PostgreSQL, Git, Docker.", "Integración, migración y personalización de soluciones en Odoo." ], }, 
-    { id: 3, role: "Investigadora", period: "2022 - 2023", company: "UGR",
+    { id: 4, role: "Investigadora", period: "2022 - 2023", company: "UGR",
       responsibilities: [ "Big data, machine learning y análisis de datos de resonancias magnéticas y estimulación magnética transcraneal.", "Uso de R y Python." ], }, 
-    { id: 4, role: "Coordinadora y supervisora", period: "2021 - 2023", company: "Profesional independiente",
+    { id: 5, role: "Coordinadora y supervisora", period: "2021 - 2023", company: "Profesional independiente",
       responsibilities: [ "Supervisión de profesionales." ], }, 
-    { id: 5, role: "Capacitadora Profesional", period: "2021 - 2022", company: "Hospital Privado Universitario de Córdoba",
+    { id: 6, role: "Capacitadora Profesional", period: "2021 - 2022", company: "Hospital Privado Universitario de Córdoba",
       responsibilities: [ "Supervisión de informes neurocognitivos.", "Capacitación de profesionales." ], }, 
-    { id: 6, role: "Jefa de Servicio", period: "2017 - 2020", company: "Sanatorio Allende",
+    { id: 7, role: "Jefa de Servicio", period: "2017 - 2020", company: "Sanatorio Allende",
         responsibilities: [ "Análisis de datos neurocognitivos y presentación de resultados en informes gráficos para diagnósticos.", "Supervisión de residentes." ], }, 
-    { id: 7, role: "Profesora Universitaria", period: "2017 - 2019", company: "UNC" }, 
+    { id: 8, role: "Profesora Universitaria", period: "2017 - 2019", company: "UNC" }, 
   ]
 
   return (
