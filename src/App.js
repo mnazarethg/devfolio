@@ -17,6 +17,7 @@ function App() {
       <HashRouter>
           <Header />
           <Routes>
+            <Route path="/" element={<Navigate to="/devfolio" />} />
             <Route path="/devfolio" element={<PrincipalPage />} />
             <Route path="/AboutMe" element={<AboutMe />} />
             <Route path="/Projects" element={<Projects />} />
@@ -25,7 +26,6 @@ function App() {
             <Route path="/ProjectAPI" element={<ProjectAPI />} />
             <Route path="/ProjectTask" element={<ProjectTask />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/" element={<Navigate to="/devfolio" />} />
           </Routes>
       </HashRouter>
     </>
